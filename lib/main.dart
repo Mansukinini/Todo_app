@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/model/todo.dart';
 import 'package:todo_app/util/dbhelper.dart';
-import 'package:todo_app/screens/todoList.dart';
+import 'package:todo_app/screens/todolist.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Todos',
       theme: ThemeData(
-        
         primarySwatch: Colors.deepOrange,
       ),
       home: MyHomePage(title: 'Todos'),
